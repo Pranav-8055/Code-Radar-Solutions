@@ -1,4 +1,4 @@
-include <stdio.h>
+#include <stdio.h>
 int main()
 {
     int a, b;
@@ -6,8 +6,7 @@ int main()
     if(a>b){
         printf("True");
     }
-    else()
-    {
+    else    {
         printf("False");
     }
 
