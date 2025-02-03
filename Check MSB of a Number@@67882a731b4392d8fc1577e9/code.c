@@ -3,11 +3,11 @@ int main()
 {
     float a;
     scanf("%f",&a);
-    if(a%2==1)
+    if(a%2.0==1.0)
     {
         printf("Set");
     }
-    else if(a%2==0)
+    else if(a%2.0==0.0)
     {
         printf("Not Set");
     }
