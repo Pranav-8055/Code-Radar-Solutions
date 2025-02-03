@@ -16,6 +16,10 @@ int main()
     {
         printf("%d",c);
     }
+    else if(a==b && b==c && a==c)
+    {
+        printf("%d",a);
+    }
 
     return 0;
 
