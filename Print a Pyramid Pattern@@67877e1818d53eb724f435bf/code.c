@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main()
+{
+    int a;
+    scanf("%d",&a);
+
+    if(n==1)
+    {
+        printf("%c",'*');
+    }
+    else if(n==2)
+    {
+        printf("%c\n\n%c%c%c",'*');
+    }
+
+    return 0;
+}
