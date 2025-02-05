@@ -5,12 +5,12 @@ int main()
     scanf("%d",&a);
     if(a<0)
     {
-        printf(" Above Freezing");
+        printf("Above Freezing");
     }
     else if(a==0)
-    [
+    {
         printf("Freezing");
-    ]
+    }
 
     return 0;
 
