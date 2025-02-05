@@ -19,7 +19,7 @@ int main()
         break;
         case 7:printf("Sunday");
         break;
-        default:printf("Invalid Day");
+        default:printf("Invalid");
     }
     return 0;
 }
