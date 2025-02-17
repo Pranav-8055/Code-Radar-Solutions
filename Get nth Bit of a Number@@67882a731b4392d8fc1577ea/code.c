@@ -11,6 +11,6 @@ int main() {
         base = base * 10; 
     }
 
-    printf( "%d", binary);
+    printf("%d",binary);
     return 0;
 }
