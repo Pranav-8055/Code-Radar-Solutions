@@ -1,15 +1,15 @@
 #include <stdio.h>
 int main()
 {
-    float a;
+    int a;
     scanf("%f",&a);
-    if(a%2.0==1.0)
+    if(a%2==1)
+    {
+        printf(" Not Set");
+    }
+    else if(a%2==0)
     {
         printf("Set");
-    }
-    else if(a%2.0==0.0)
-    {
-        printf("Not Set");
     }
 
     return 0;
