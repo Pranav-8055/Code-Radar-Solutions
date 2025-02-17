@@ -2,10 +2,9 @@
 int main()
 {
     int a;
-    scanf("%f",&a);
+    scanf("%d",&a);
     if(a&(1<<31))
-    
-    {
+     {
         printf("Set");
     }
     else
