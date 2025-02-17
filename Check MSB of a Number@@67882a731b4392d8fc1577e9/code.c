@@ -3,11 +3,12 @@ int main()
 {
     int a;
     scanf("%f",&a);
-    if(a%2==1)
+    int msb=findMSB(a)
+    if(msb==1)
     {
         printf(" Not Set");
     }
-    else if(a%2==0)
+    else if(msb==0)
     {
         printf("Set");
     }
