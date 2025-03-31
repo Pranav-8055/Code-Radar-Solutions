@@ -23,7 +23,7 @@ int main()
     {
         scanf("%d",&arr[i]);
     }
-    sort(arr,n)
+    sort(arr,n);
     for(int i=0;i<n;i++)
     {
         printf("%d %d",arr[0],arr[n-1]);
