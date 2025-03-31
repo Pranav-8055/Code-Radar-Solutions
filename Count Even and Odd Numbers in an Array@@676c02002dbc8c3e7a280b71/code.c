@@ -34,5 +34,5 @@ int main()
     {
         scanf("%d",&arr[i]);
     }
-    printf("%d %d",count1, count2);
+    printf("%d %d",iseven(arr,n),isodd(arr,n));
 }
