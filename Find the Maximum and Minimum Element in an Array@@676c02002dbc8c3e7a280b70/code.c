@@ -5,7 +5,7 @@ void sort(int arr[],int n)
     [
         for(int j=0;j<n-i-1;j++)
         {
-            if(arr[j]>arr[j+1])
+            if(arr[j] > arr[j+1])
             {
                 int k=arr[j];
                 arr[j]=arr[j+1];
@@ -26,7 +26,7 @@ int main()
     sort(arr,n);
     for(int i=0;i<n;i++)
     {
-        printf("%d",arr[i]);
+        printf("%d",arr[0],arr[n-1]);
     }
 }
 
