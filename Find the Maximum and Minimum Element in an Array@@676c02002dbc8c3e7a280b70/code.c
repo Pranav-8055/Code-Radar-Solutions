@@ -18,7 +18,6 @@ void sort(int arr[],int n){
         scanf("%d",&arr[i]);
     }
     sort(arr,n);
-    for(int i=0;i<n;i++){
-        printf("%d %d",arr[0], arr[n-1]);
-    }
+     printf("%d %d",arr[0], arr[n-1]);
+    
  }
