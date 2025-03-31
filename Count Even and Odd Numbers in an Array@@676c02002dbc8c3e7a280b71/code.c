@@ -15,7 +15,7 @@ int iseven(int arr[],int n)
 int isodd(int arr[],int n)
 {
     int count2=0;
-    for(int i=0;i<n-1;i++)
+    for(int i=0;i<n;i++)
     {
         if(arr[i]%2!=0)
         {
