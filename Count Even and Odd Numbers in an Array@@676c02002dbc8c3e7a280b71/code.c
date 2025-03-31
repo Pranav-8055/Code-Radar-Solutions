@@ -34,6 +34,5 @@ int main()
     {
         scanf("%d",&arr[i]);
     }
-    sort(arr,n)
     printf("%d %d",count1, count2);
 }
