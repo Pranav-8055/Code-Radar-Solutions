@@ -19,6 +19,6 @@ void sort(int arr[],int n){
     }
     sort(arr,n);
     for(int i=0;i<n;i++){
-        printf("%d %d",arr[0], arr[i]);
+        printf("%d %d",0, i);
     }
  }
